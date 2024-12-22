@@ -72,4 +72,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- Thanks to the developers and contributors who make this project possible.
+- Developed by: Arron Kian M. Parejas
