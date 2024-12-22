@@ -1,98 +1,76 @@
-# 🌟 GDG-HAU Membership Dashboard Management System 🌟
 
-Welcome to the **GDG-HAU Membership Dashboard Management System**! This project aims to streamline the management of membership records and provide an intuitive dashboard for the **Google Developers Group - Holy Angel University (GDG-HAU)**.
+# Google Developer Group HAU Membership Management System
 
----
+🌐📊 **Google Developer Group HAU Membership Management System** is a powerful and easy-to-use membership management application designed to help you manage the membership of your community, university group, or organization. With features like adding new members, searching, updating, deleting, and exporting member data, this system helps you stay organized and efficient.
 
-## 🖥️ About the System
-The Membership Dashboard Management System is a comprehensive tool designed to:
+## Features
 
-1. **Track Membership Data** 📋:
-   - Maintain accurate records of members, including personal details and participation history.
-2. **Streamline Operations** ⚡:
-   - Simplify administrative tasks like attendance tracking and event registrations.
-3. **Enhance Engagement** 🌐:
-   - Provide members with easy access to their profiles and upcoming opportunities.
+- **Add Member**: Easily add new members to the system, including personal details, mode of payment, and contact information.
+- **View Members**: Search for members by name or student number and view all the details in a table format.
+- **Edit Member**: Update member information such as name, mode of payment, student number, and contact details.
+- **Delete Member**: Remove a member from the database by selecting the member and clicking delete.
+- **Export Data**: Export the entire member list to either Excel or CSV format.
+- **Recent Entries**: View the most recent members added to the system.
+- **Data Insights**: Get valuable insights into the membership data, including the total number of members, payment mode distribution, and the most common payment mode.
 
-This system ensures a seamless experience for both members and administrators.
+## Technologies Used
 
----
+- **Python**: The main programming language for the application.
+- **SQLite**: Used for the database to store member information.
+- **Pandas**: Used for data manipulation and exporting data to Excel and CSV.
+- **Streamlit**: A framework for building the web interface of the app.
+- **XlsxWriter**: For generating Excel files from the data.
 
-## 🎯 Key Features
+## Setup
 
-1. **Member Profiles** 🧑‍💻:
-   - Create, update, and manage member records efficiently.
-2. **Event Participation Tracking** 🎟️:
-   - Log attendance and engagement for GDG-HAU events.
-3. **Customizable Dashboard** 📊:
-   - Provide insights with dynamic graphs and charts.
-4. **Role-Based Access** 🔐:
-   - Ensure secure access for administrators and members.
-5. **Notifications** 🔔:
-   - Send reminders for events, deadlines, and important updates.
+To run this project locally, follow the steps below:
 
----
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/membership-management-system.git
+   cd membership-management-system
+   ```
 
-## ⚙️ Development Details
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-### Technologies Used:
-- **Frontend**: React.js ⚛️
-- **Backend**: Node.js with Express.js 🚀
-- **Database**: MongoDB 🍃
-- **Authentication**: JWT (JSON Web Tokens) 🔑
-- **Hosting**: Deployed using cloud services (e.g., AWS or Heroku).
+3. Run the Streamlit app:
+   ```bash
+   streamlit run app.py
+   ```
 
-### Development Objectives:
-- **User-Centric Design**: Prioritize a clean and responsive user interface.
-- **Scalability**: Ensure the system can handle a growing number of members and events.
-- **Reliability**: Provide a robust and secure platform for data management.
+4. Open the app in your browser at `http://localhost:8501`.
 
----
+## Features in Detail
 
-## 🛠️ How to Contribute
+### Add Member
+- Add new members to the system with details like name, payment mode, student number, Gmail, and an optional text field for additional details.
 
-We welcome contributions to improve this system! Here’s how you can get started:
+### View Members
+- Search for members using keywords like name or student number and view the results in a dynamic table.
 
-1. **Fork this Repository** 🍴:
-   - Create your own copy of the repo.
-2. **Clone the Repository** 📥:
-   - Use `git clone` to download the project locally.
-3. **Set Up the Environment** 🔧:
-   - Install dependencies with `npm install`.
-   - Configure environment variables in `.env` (e.g., database URL, API keys).
-4. **Make Changes** ✏️:
-   - Enhance features, fix bugs, or optimize performance.
-5. **Submit a Pull Request** 🔀:
-   - Share your updates for review.
+### Edit Member
+- Edit the details of existing members. You can update personal information, payment mode, student number, and Gmail.
 
-Refer to the `CONTRIBUTING.md` file for detailed guidelines.
+### Delete Member
+- Select and delete members from the system by their ID.
 
----
+### Export Data
+- Export all members to either an Excel or CSV file to back up or analyze the data.
 
-## 🚀 Future Enhancements
+### Recent Entries
+- View the most recent member entries in the system.
 
-- **Mobile App Integration** 📱:
-   - Provide a seamless experience on Android and iOS devices.
-- **Advanced Analytics** 📈:
-   - Add predictive insights and member activity forecasts.
-- **Gamification** 🎮:
-   - Reward active members with badges and leaderboard rankings.
-- **Multilingual Support** 🌏:
-   - Localize the dashboard for a diverse user base.
+### Data Insights
+- Get advanced insights like the total number of members, the distribution of payment modes, and the most common payment mode.
 
----
+## License
 
-## 📬 Contact Us
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-For queries, suggestions, or support, reach out to the GDG-HAU team:
-- **Email**: [gdg-hau@example.com](mailto:gdg-hau@example.com)
-- **Website**: [GDG-HAU Official Website](https://gdsc-hau.pages.dev/)
+## Acknowledgments
 
----
-
-## 👑 Owner 🤝
-
-Developed by Arron Kian Parejas
-
-**Join us in building an efficient and engaging platform for the GDG-HAU community! 🚀**
+- Thanks to the developers and contributors who make this project possible.
 
