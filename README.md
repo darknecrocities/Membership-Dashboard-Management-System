@@ -90,5 +90,9 @@ For queries, suggestions, or support, reach out to the GDG-HAU team:
 
 ---
 
+## 👑 Owner 🤝
+
+Developed by Arron Kian Parejas
+
 **Join us in building an efficient and engaging platform for the GDG-HAU community! 🚀**
 
